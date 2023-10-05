@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background: url("https://img.freepik.com/free-photo/vivid-blurred-colorful-background_58702-2563.jpg") center no-repeat;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+}
+
+.img_header {
+    height: 70px;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+
+sidebar {
+    padding: 5px;
+    margin: 5px;
+    border: 4px solid #0dea06;
+    width: 15vh;
+    max-width: 576px;
+    text-align: left;
+}
+
+a:hover {
+    color: #40b70a;
+}
+
+.main {
+    display: flex;
+}
+
+.container {
+    display: flex;
+}
+
+.img_content:hover {
+    transform: scale(1.2);
+}
+
+
+footer {
+    color: #fff;
+    background-color: blue;
+    position: fixed;
+    bottom: 350px;
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-width: 1920px;
+}
+
+.footer__container {
+    width: 800px;
+    margin: 0;
+    display: flex;
+}
+
+.title {
+    margin-left: 0;
+    font-size: 18px;
+}
+
+.column {
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.container2 {
+    width: 100%;
+    max-width: 1500px;
+}
